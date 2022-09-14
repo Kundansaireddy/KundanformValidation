@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+  }
+  body {
+    background-color:paleturquoise;
+  }
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 4px 10px gray;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  span{
+    color:red;
+  }
+  button{
+    color:white;
+    background-color: red;
+    height:30px;
+  }
+  button:hover{
+    color: red;
+    background-color: white;
+  }
+
+
